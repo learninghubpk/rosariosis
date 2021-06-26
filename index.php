@@ -537,11 +537,15 @@ if ( empty( $_SESSION['STAFF_ID'] )
 		<input type="hidden" name="redirect_to" value="<?php echo htmlspecialchars( $_REQUEST['redirect_to'], ENT_QUOTES ); ?>" />
 	<?php endif; ?>
 	</form>
+	<p style="text-align:center">
+	Powered By <a href="https://www.learninghub.pk"> Learning Hub </a>
+	</p>
+
 	<input class="toggle" type="checkbox" id="toggle1" />
-	<label class="toggle" for="toggle1"><?php
+	<!-- <label class="toggle" for="toggle1"><?php
 	// @todo Use <detail><summary> & remove CSS hack.
 	// @link https://caniuse.com/#search=details
-	echo _( 'About' ); ?></label>
+	echo _( 'About' ); ?></label> -->
 	<div class="about-rosariosis toggle-me">
 		<?php // System disclaimer. ?>
 		<p class="size-3">

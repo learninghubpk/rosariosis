@@ -296,7 +296,7 @@ function MoodleTriggered( $hook_tag, $arg1 = '' )
 				{
 					DrawHeader( CheckBoxOnclick(
 						'moodle_create_user',
-						_( 'Create User in Moodle' )
+						_( 'Create User in LMS' )
 					) );
 				}
 			}
